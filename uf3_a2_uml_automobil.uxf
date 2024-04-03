@@ -1,10 +1,11 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>80</x><y>0</y><w>390</w><h>230</h></coordinates><panel_attributes>transparency=90
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>80</x><y>0</y><w>390</w><h>250</h></coordinates><panel_attributes>transparency=90
 bg=green
 Automobil
 --
 - marca: String
 - model: String
 - matricula: String
+__+ totalAutos: int __
 --
 + Automobil(in marca: String, in model:String, in matricula:String)
 + Automobil()
@@ -23,8 +24,8 @@ _auto1: Automobil_
 marca: String="Porche"
 model: String="Cayene"
 matricula: String="2323ABC"
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>220</y><w>170</w><h>200</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;instance&gt;&gt;</panel_attributes><additional_attributes>10;180;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>400</y><w>210</w><h>70</h></coordinates><panel_attributes>transparency=90
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>240</y><w>170</w><h>180</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instance&gt;&gt;</panel_attributes><additional_attributes>10;160;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>400</y><w>210</w><h>70</h></coordinates><panel_attributes>transparency=90
 bg=blue
 _auto2: Automobil_
 --
@@ -38,6 +39,6 @@ _auto3: Automobil_
 marca: String="VW"
 model: String="Golf"
 matricula: String="2222ABC"
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>220</y><w>150</w><h>200</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;instance&gt;&gt;</panel_attributes><additional_attributes>130;180;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>220</y><w>390</w><h>200</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;instance&gt;&gt;</panel_attributes><additional_attributes>370;180;10;10</additional_attributes></element></diagram>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>240</y><w>150</w><h>180</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instance&gt;&gt;</panel_attributes><additional_attributes>130;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>240</y><w>390</w><h>180</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instance&gt;&gt;</panel_attributes><additional_attributes>370;160;10;10</additional_attributes></element></diagram>
